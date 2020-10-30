@@ -1,8 +1,76 @@
-body h1{
+html{
+  scroll-behavior: smooth;
+}
+
+body h1, h2, h3{
 	font-family: 'Grenze Gotisch', cursive;
+	color: red;
 }
 
 .naoentra{
-	margin-top: 5%;
+	margin-top: 4%;
+}
+
+.linha{
+	margin-right: auto; 
+	margin-left: auto;
+	text-align: center;
+}
+
+#sobre{
+	width: 65%;
+	margin-right: auto; 
+	margin-left: auto;
+	text-align: center;
+}
+
+.radius-meu{
+	border-radius: 10%;
+}
+
+.sombra-branca{
+	text-shadow: 2px 2px 1px #fff;
+}
+
+.ano{
+	background-image: linear-gradient(to right, red, #fff);
+	border-radius: 10%;
+	width: 40%;
+	margin-right: auto;
+	margin-left: auto;
+	font-weight: 700;
+	margin-bottom: 2vh;
+}
+
+.fundo-imagem{
+	background-image: url(../img/destaques-fundo.jpg);
+	background-repeat: no-repeat;
+	width: 100%;
+	height: auto;
+}
+
+.cor{
+	text-align: center;
+	color: #1C1C1C;
+	margin-top: 10px;
+}
+
+.counts{
+	padding: 1% 0;
+}
+
+.counts .count-box{
+	width: 100%;
+	text-align: center;
+}
+
+.counts .count-box span{
+	font-size: 48px;
+	color: red;
+	line-height: 48px;
+	display: block;
+	font-weight: 700;
+	margin-left: 80px;
+	margin: auto;
 }
 
