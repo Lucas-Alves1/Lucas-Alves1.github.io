@@ -417,6 +417,7 @@ h6, .h6 {
   font-size: 2.5rem;
   font-weight: 300;
   line-height: 1.2;
+  text-align: center;
 }
 
 hr {
@@ -4393,7 +4394,7 @@ input[type="button"].btn-block {
   padding: 0.25rem 0.75rem;
   font-size: 1.25rem;
   line-height: 1;
-  background-color: transparent;
+  background-color: #212529;
   border: 1px solid transparent;
   border-radius: 0.25rem;
 }
