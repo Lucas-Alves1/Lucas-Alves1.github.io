@@ -68,6 +68,18 @@ body h1, h2, h3{
 	margin-top: 10px;
 }
 
+.cor-preta{
+	text-align: center;
+	color: #212529;
+	margin-top: 10px;
+}
+
+.cor-vermelha{
+	text-align: center;
+	color: red;
+	margin-top: 10px;
+}
+
 .counts{
 	padding: 1% 0;
 }
@@ -90,7 +102,33 @@ body h1, h2, h3{
 .counts .count-box p{
 	padding: 2px 0 0 0;
 	font-weight: 500;
-	font-size: 1.1rem;
+	font-size: 1.2rem;
 	color: #fff;
 	text-shadow: 0.1em 0.1em #;
+}
+
+.tabela{
+	padding-top: 2%; 
+}
+
+table, th, td{
+	text-align: center;
+	width: 100%;
+}
+
+.letra{
+	font-size: 1.1em;
+}
+
+table{
+	border-collapse: collapse;
+	width: 100%;
+}
+
+th, td{
+	padding: 5px;
+}
+
+td:hover{
+	background-color: red;
 }
