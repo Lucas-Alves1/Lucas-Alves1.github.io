@@ -132,3 +132,23 @@ th, td{
 td:hover{
 	background-color: red;
 }
+
+.zoom:hover{
+	-webkit-transform: scale(1.1);
+	-ms-transform-scale: scale(1.1);
+	transform: scale(1.1);
+}
+
+.centro{
+	text-align: center;
+}
+
+.galeria img{
+	border-radius: 1%;
+}
+
+.rodape{
+	background-color: white;
+	padding: 5px; 
+	margin-top: 3px;
+}
